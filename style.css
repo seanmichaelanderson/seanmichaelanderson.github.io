@@ -1,5 +1,116 @@
+.header{
+    width: 100%;
+    background-image: url(bridge.jpg);
+}
+.container{
+    width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;	
+}
 body{
     background-color: rgb(153, 153, 102);
     font-family: sans-serif;
-    font-size: 4em;
+    font-size: 1em;
+}
+img{
+    float: left;
+    padding: 10px 250px 0 250px;
+}
+#splash{
+	
+    width: auto; 
+	height: 500px;
+	background-image: url(image/pic.jpg);
+}
+#splash img{
+    padding: 90px 550px;
+    border-radius: 100%;
+}
+
+#container h1{
+    font-size: 2em;
+    color: #ffffff;
+    font-style: italic;
+     text-shadow: 2px 2px #000;
+     padding: 0 450px 0 550px;
+}
+
+#navbar{
+	width: 100%; /* as wide as container - make sure buttons don't exceed container width */
+	/* reducing height hides the bottom of the buttons and the bottom rounded corners of buttons */
+	/*height: 54px;*/
+	background-color: rgba(255,255,255,0.8);
+	color: #808080;
+}
+ul#menu {
+	list-style: none; /* eliminates bullets */
+	padding-top: 0px;
+} 
+ul#menu li {
+	float: left; /* changes list from vertical to horizontal */
+    padding-left: 70px;
+    padding-bottom: 10px; 
+} 
+ul#menu li a.button {
+	font-size: 16px;
+	text-decoration: none; /* removes the link underline */
+	/* the padding define the size of the buttons */
+	/* increase bottom padding for tabs with hidden bottoms so tab text can be seen*/
+	padding: 20px 70px;
+	/* rounded corners turn buttons into tabs when bottom of button is hidden */
+	
+}
+ul#menu li a.button:visited{
+	color: #808080; 
+} 
+ul#menu li a.button:hover {
+	background-color: rgba(255,255,255,0.4);
+	color: #1a1a1a;
+}
+
+#content{
+	padding: 100px;
+	margin: 0 auto;
+}
+#content p{
+    text-align: center;
+    color: #ffffff;
+    font-style: italic;
+    
+}
+#content h1{
+    color: #ffffff;
+    font-style: italic;
+    padding: 50px 250px 0 0;
+     text-shadow: 2px 2px #000;
+    font-size: 2em;
+}
+#content h2{
+    color: #ffffff;
+    font-style: italic;
+    
+     text-shadow: 2px 2px #000;
+    font-size: 1em;
+    text-align: center;
+}
+    
+a:hover,
+a:active{
+	color: #808080;
+	text-decoration: none;
+}
+
+a:link,
+	a:visited{
+		color: #808080;
+	}
+#content a:hover,
+a:active{
+	color: #808080;
+	
+}
+#content a:link,
+a:visited{
+    color: #ffffff;
+    
 }
