@@ -22,12 +22,6 @@ img{
 	height: 500px;
 	background-image: url(image/pic.jpg);
 }
-#splash-experince{
-	
-    width: auto; 
-	height: 200px;
-	background-image: url(image/pic.jpg);
-}
 #splash img{
     padding: 90px 550px;
     border-radius: 100%;
