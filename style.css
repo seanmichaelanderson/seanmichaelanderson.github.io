@@ -22,6 +22,12 @@ img{
 	height: 500px;
 	background-image: url(image/pic.jpg);
 }
+#splash-exp{
+	
+    width: auto; 
+	height: 200px;
+	background-image: url(image/pic.jpg);
+}
 #splash img{
     padding: 90px 550px;
     border-radius: 100%;
@@ -81,9 +87,9 @@ ul#menu li a.button:hover {
 #content h1{
     color: #ffffff;
     font-style: italic;
-    padding: 50px 250px 0 0;
      text-shadow: 2px 2px #000;
     font-size: 2em;
+    text-align: center;
 }
 #content h2{
     color: #ffffff;
