@@ -104,6 +104,13 @@ a:active{
 	color: #808080;
 	text-decoration: none;
 }
+#content h3{
+    color: #ffffff;
+    font-style: italic;
+     text-shadow: 2px 2px #000;
+    font-size: 1em;
+    text-align: left;
+} 
 
 a:link,
 	a:visited{
@@ -116,8 +123,7 @@ a:active{
 }
 #content a:link,
 a:visited{
-    color: #ffffff;
-    
+    color: #782F40;
 }
 #content li{
     color: #782F40;
