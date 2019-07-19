@@ -162,3 +162,15 @@ a:visited{
 hr{
    color: #782F40 
 }
+
+.ERD_PIC{
+     width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+    padding: 200px;
+}
+
+#ERD_PIC img{
+    float: left;
+    padding: 0 500px;
+}
