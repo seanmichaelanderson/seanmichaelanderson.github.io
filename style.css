@@ -20,16 +20,16 @@ img{
 	
     width: auto; 
 	height: 500px;
-	background-image: url(image/pic.jpg);
+	background-image: url(image/pic3.jpg);
 }
 #splash-exp{
 	
     width: auto; 
 	height: 200px;
-	background-image: url(image/pic2.jpg);
+	background-image: url(image/pic3.jpg);
 }
 #splash img{
-    padding: 90px 550px;
+    align-self: center;
     border-radius: 100%;
 }
 
@@ -132,4 +132,33 @@ a:visited{
 }
 #content img{
     float: right;
+}
+
+.ERD{
+     width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+    padding: 200px;
+}
+
+.Data{
+     width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.HTML{
+     width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.CSS{
+     width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+    
+hr{
+   color: #782F40 
 }
