@@ -59,7 +59,7 @@ ul#menu li a.button {
 	text-decoration: none; /* removes the link underline */
 	/* the padding define the size of the buttons */
 	/* increase bottom padding for tabs with hidden bottoms so tab text can be seen*/
-	padding: 20px 30px;
+	padding: 20px 40px;
 	/* rounded corners turn buttons into tabs when bottom of button is hidden */
 	
 }
