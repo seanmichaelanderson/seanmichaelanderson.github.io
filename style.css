@@ -7,6 +7,11 @@
 	margin: 0 auto;
 	overflow: hidden;	
 }
+#footer{
+  width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
 body{
     background-color: #CEB888;
     font-family: sans-serif;
@@ -38,6 +43,7 @@ body{
     text-align: center;
 }
 
+
 #navbar{
 	width: 100%; /* as wide as container - make sure buttons don't exceed container width */
 	/* reducing height hides the bottom of the buttons and the bottom rounded corners of buttons */
@@ -59,7 +65,7 @@ ul#menu li a.button {
 	text-decoration: none; /* removes the link underline */
 	/* the padding define the size of the buttons */
 	/* increase bottom padding for tabs with hidden bottoms so tab text can be seen*/
-	padding: 20px 40px;
+	padding: 20px 30px;
 	/* rounded corners turn buttons into tabs when bottom of button is hidden */
 	
 }
@@ -77,7 +83,7 @@ ul#menu li a.button:hover {
 }
 #content p{
     text-align: center;
-    color: #ffffff;
+    color: #782F40;
     font-style: italic;
     
 }
